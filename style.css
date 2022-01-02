@@ -1,3 +1,157 @@
 body {
   margin: 0;
 }
+
+.container {
+  width: 996px;
+  margin: 0 auto;
+  background-color: #e9ebecab;
+}
+.header {
+  margin-left: 70px;
+}
+.header,
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container-image {
+  width: 210px;
+  height: 210px;
+}
+
+.about {
+  align-self: center;
+  width: 50%;
+}
+
+.about > span {
+  font-weight: 600;
+}
+
+.container-image > img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+  margin-top: 10%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #007fff;
+}
+
+.margin-bottom {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.margin-top {
+  margin-top: 0px;
+}
+
+a.color-link-nav,
+a.color-link {
+  color: hsl(204, 2%, 51%);
+}
+a.color-link-nav:hover,
+a.color-link:hover {
+  color: #007fff;
+}
+a.color-link-nav:visited,
+a.color-link:visited {
+  color: #007fff;
+}
+
+.main {
+  margin-top: 50px;
+}
+.project-list {
+  width: 50%;
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container-article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.heading:after {
+  content: ">";
+  position: relative;
+  left: 300px;
+  top: 20.3px;
+  font-weight: 600;
+}
+.heading::before {
+  content: "";
+  position: relative;
+  display: block;
+  width: 390px;
+  height: 1px;
+  background-color: #0c2340;
+  top: 40px;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0c2340;
+}
+li {
+  color: #1e2952;
+  margin-bottom: 5px;
+}
+.wrapper-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.wrapper-img-rs {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+img.footer-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+.wrapper-time {
+  align-self: center;
+  font-size: 16px;
+}
+code.javascript.hljs.language-javascript {
+  padding: 0;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+}

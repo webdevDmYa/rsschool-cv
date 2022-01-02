@@ -1,7 +1,7 @@
 # Dmytro Yakymenko
 + Telegram: [https://t.me/dmytro_yakymenko](https://t.me/dmytro_yakymenko)
 + Gmail: [dmytro.yakymenko.web@gmail.com](dmytro.yakymenko.web@gmail.com)
-+ Discord: d1m0n Ya.#8300 
++ Discord: d1m0n Ya.#8300
 ## About me
 I am a novice front-end developer. At this stage, I am actively moving on the roadmap front-end 2022. I'm learning JavaScript.
 ## Hard skills
@@ -17,7 +17,7 @@ I am a novice front-end developer. At this stage, I am actively moving on the ro
 ## Projects
  [CV]
 ## Education
- **2006 - 2012** National Technical University 
+ **2006 - 2012** National Technical University
 ## Additional Information
 ### Training courses:
 - Certificate "JavaScript Programming (Front end, ES-2021)"
