@@ -5,137 +5,221 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css"
+    />
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js"></script>
     <title>CV</title>
   </head>
   <body>
     <div class="container">
+      <nav class="nav">
+        <ul style="list-style: none">
+          <li class="nav-list item">
+            <a class="color-link-nav" href="#about">About me</a>
+          </li>
+          <li class="nav-list item">
+            <a class="color-link-nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav-list item">
+            <a class="color-link-nav" href="#education">Education</a>
+          </li>
+          <li class="nav-list item">
+            <a class="color-link-nav" href="#languages">Languages</a>
+          </li>
+          <li class="nav-list item">
+            <a class="color-link-nav" href="#hard">Hard skills</a>
+          </li>
+          <li class="nav-list item">
+            <a class="color-link-nav" href="#soft">Soft skills</a>
+          </li>
+        </ul>
+      </nav>
       <header class="header">
         <div class="container-image">
           <img src="./assets/img/profile.jpg" alt="" />
         </div>
-        <article class="about">
+        <article class="about" id="about">
           <h1>Dmytro<br />Yakymenko</h1>
-          <span>Junior Front-end Developer</span>
+          <span style="color: #0c2340">Junior Front-end Developer</span>
           <p class="margin-top">
             I am a novice front-end developer. At this stage, I am actively
             moving on the roadmap front-end 2022. I'm learning JavaScript.
           </p>
-          <div class="margin-bottom">
-            <a
-              href="https://t.me/dmytro_yakymenko"
-              title="Dmytro Yakymenko"
-              target="_blank"
-              >Telegram</a
-            >
-            : dmytro_yakymenko
-          </div>
-          <div class="margin-bottom">
-            <span class="color-link">Discord</span> : d1m0n Ya.#8300
-          </div>
-          <div class="margin-bottom">
-            <a
-              href="mailto:dmytro.yakymenko.web@gmail.com"
-              title="dmytro.yakymenko.web@.gmail.com"
-              target="_blank"
-              >Send email</a
-            >
-            : dmytro.yakymenko.web@gmail.com
-          </div>
+          <ul style="list-style: none; padding: 0">
+            <li>
+              <a
+                class="color-link"
+                href="https://t.me/dmytro_yakymenko"
+                title="Dmytro Yakymenko"
+                target="_blank"
+                >Telegram</a
+              >
+              : dmytro_yakymenko
+            </li>
+            <li>
+              <a
+                class="color-link"
+                href="mailto:dmytro.yakymenko.web@gmail.com"
+                title="dmytro.yakymenko.web@.gmail.com"
+                target="_blank"
+                >Send email</a
+              >
+              : dmytro.yakymenko.web@gmail.com
+            </li>
+            <li>
+              <span style="color: hsl(204, 2%, 51%)">Discord</span> : d1m0n
+              Ya.#8300
+            </li>
+          </ul>
         </article>
       </header>
 
-      <!-- <main class="main">
-        <section class="project">
+      <main class="main">
+        <div class="container-article">
           <h2 class="heading">Projects</h2>
-          <div class="project-list">
-            <article class="project-item">
-              <h4>CV</h4>
-              <p>HTML5</p>
-              <a href="https://webdevdmya.github.io/rsschool-cv/"
-                ><img src="" alt="Photo CV"
-              /></a>
-            </article>
-            <article class="project-item">
-              <h4>CV</h4>
-              <p>HTML5</p>
-              <a href="https://webdevdmya.github.io/rsschool-cv/"
-                ><img src="" alt="Photo CV"
-              /></a>
-            </article>
-            <article class="project-item">
-              <h4>CV</h4>
-              <p>HTML5</p>
-              <a href="https://webdevdmya.github.io/rsschool-cv/"
-                ><img src="" alt="Photo CV"
-              /></a>
-            </article>
-            <article class="project-item">
-              <h4>CV</h4>
-              <p>HTML5</p>
-              <a href="https://webdevdmya.github.io/rsschool-cv/"
-                ><img src="" alt="Photo CV"
-              /></a>
-            </article>
-            <article class="project-item">
-              <h4>CV</h4>
-              <p>HTML5</p>
-              <a href="https://webdevdmya.github.io/rsschool-cv/"
-                ><img src="" alt="Photo CV"
-              /></a>
-            </article>
-            <article class="project-item">
-              <h4>CV</h4>
-              <p>HTML5</p>
-              <a href="https://webdevdmya.github.io/rsschool-cv/"
-                ><img src="" alt="Photo CV"
-              /></a>
-            </article>
-            <article class="project-item">
-              <h4>CV</h4>
-              <p>HTML5</p>
-              <a href="https://webdevdmya.github.io/rsschool-cv/"
-                ><img src="" alt="Photo CV"
-              /></a>
-            </article>
-            <article class="project-item">
-              <h4>CV</h4>
-              <p>HTML5</p>
-              <a href="https://webdevdmya.github.io/rsschool-cv/"
-                ><img src="" alt="Photo CV"
-              /></a>
-            </article>
+          <article class="article">
+            <h2 id="education">Education</h2>
+            <ul style="list-style: none">
+              <li>
+                <span style="opacity: 0.7">Higher education</span><br />National
+                Technical University<br />
+                <span style="opacity: 0.7">2006-2012</span>
+              </li>
+            </ul>
+            <h3>Training courses:</h3>
+            <ol>
+              <li>Certificate "JavaScript Programming (Front end, ES-2021)"</li>
+              <li>
+                Certificate "Basics of programming and web development
+                (JavaScript, HTML, CSS)"
+              </li>
+            </ol>
+          </article>
+          <article class="article">
+            <h2 id="languages">Languages</h2>
+            <ul style="list-style: none">
+              <li>Ukrainian - fluent</li>
+              <li>Russian - fluent</li>
+              <li>English - pre-Intermediate</li>
+            </ul>
+          </article>
+          <article class="article">
+            <h2 id="hard">Hard skills</h2>
+            <ul style="list-style: circle">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Git/GitHub</li>
+            </ul>
+          </article>
+          <article class="article">
+            <h2 id="soft">Soft skills</h2>
+            <ul>
+              <li>
+                Adaptability: open to ideas, new reality or rapid change in the
+                modern world
+              </li>
+              <li>
+                Sociability: I can find common ground with team and management
+              </li>
+              <li>
+                Responsibility: I follow the rules of work and norms of
+                behavior, general needs, responsibilities and values
+              </li>
+              <li>
+                Diligence and punctuality: completing tasks clearly as required
+                and deadlines
+              </li>
+            </ul>
+          </article>
+          <article class="article">
+            <h2 id="work">Work expirience</h2>
+            <ul style="list-style: square">
+              <li>
+                <span style="opacity: 0.7">2015 - 2020</span><br />Service in
+                the army of Ukraine<br /><span style="opacity: 0.7"
+                  >Driver</span
+                >
+              </li>
+              <li>
+                <span style="opacity: 0.7">2012 - 2015</span><br />DTEK energy
+                company<br /><span style="opacity: 0.7"
+                  >Electric locksmith</span
+                >
+              </li>
+            </ul>
+          </article>
+          <article class="article">
+            <h2 id="code">Code example</h2>
+            <pre><code class="javascript">
+    function greet() {
+      return 'hello world!'
+    }
+ </code></pre>
+          </article>
+        </div>
+        <div class="project-list" id="projects">
+          <article class="project-item">
+            <h4>CV</h4>
+            <p>
+              work with Git and GitHub, using markdown markup, basic layout
+              skills, validity and semantics of layout
+            </p>
+            <a href="https://webdevdmya.github.io/rsschool-cv/"
+              ><img
+                class="project-image"
+                src="./assets/img/Screenshot_1.png"
+                width="200"
+                height="100"
+                alt="CV"
+            /></a>
+          </article>
+          <article class="project-item">
+            <h4>Museum</h4>
+            <p>
+              writing your own js-code, infinite slider / swiper, custom HTML5
+              video player, image comparison slider, scroll animation
+            </p>
+            <a
+              href="https://rolling-scopes-school.github.io/webdevdmya-JSFE2021Q3/museum-dom/"
+              ><img
+                class="project-image"
+                src="./assets/img/Screenshot_2.png"
+                width="200"
+                height="100"
+                alt="Museum"
+            /></a>
+          </article>
+        </div>
+      </main>
+      <!-- <footer class="footer">
+        <div class="wrapper-footer">
+          <div class="wrapper-img-rs">
+            <a
+              href="https://rs.school/js-stage0/"
+              title="RS School FEJS2022 FREE"
+              target="_blank"
+              ><img
+                class="footer-img"
+                src="./assets/img/rs_school_js.svg"
+                alt="rsschool"
+            /></a>
           </div>
-        </section>
-
-        <article>
-          <h2>Education</h2>
-          <span>Higher education</span>
-          <p>National Technical University</p>
-          <span>2006-2012</span>
-        </article>
-
-        <article>
-          <h2>Additional Information</h2>
-          <h3>Training courses:</h3>
-          <p>About course</p>
-        </article>
-
-        <article>
-          <h3>Hard skills</h3>
-          <p>About skills</p>
-        </article>
-
-        <article>
-          <h3>Languages</h3>
-          <p>About Languages</p>
-        </article>
-
-        <article>
-          <h2>Soft skills</h2>
-          <p>About skills</p>
-        </article>
-      </main> -->
-      <footer class="footer"></footer>
-    </div>
+          <div class="wrapper-time">
+            <time datetime="2021-08-05"
+              ><a class="color-link-nav" href="https://github.com/webdevDmYa"
+                >GitHub</a
+              >
+              &copy; 2022</time
+            >
+          </div>
+        </div>
+      </footer>
+    </div> -->
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>
