@@ -25,7 +25,7 @@ body {
 }
 
 .container-image {
-  width: 225px;
+  width: 255px;
   height: auto;
 }
 
@@ -107,7 +107,7 @@ a.color-link:hover {
   display: block;
   width: 580px;
   height: 2px;
-  background-color: #0c2340;
+  background-color: #264770;
   top: 40px;
 }
 nav > ul {
@@ -123,9 +123,13 @@ h3,
 h4,
 h5,
 h6 {
-  color: #0c2340;
+  color: #264770;
   text-shadow: 0px 0px 1.2px #0c2340;
 }
+h1 {
+  font-size: 40px;
+}
+
 h4 {
   font-size: 24px;
 }
